@@ -3,6 +3,13 @@ ShopBot Pro is an advanced smart chatbot designed to enhance your online shoppin
 
  ![Alt Text](https://github.com/TAHMID37/ShopBot-Pro/blob/main/ShopBot%20Pro.png)
 
+ ## Built using
+ <ul>
+        <li><strong>Langchain</li>
+        <li><strong>Google PaLM</li>
+        <li><strong>InstructorEmbedding</li>
+  </ul>
+
  ## Installation
 
  1.To run the PDF Question Answer App locally, please follow these steps:
