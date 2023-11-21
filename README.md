@@ -10,17 +10,23 @@ ShopBot Pro is an advanced smart chatbot designed to enhance your online shoppin
         <li><strong>InstructorEmbedding</li>
   </ul>
 
- ## Installation
 
- 1.To run the PDF Question Answer App locally, please follow these steps:
+### Setup Development Environment
+```bash
+pip install pipenv
+pipenv install
+pipenv shell
+```
+You might need to use `python3 -m` before `pipenv` in some cases. 
 
-```https://github.com/TAHMID37/ShopBot-Pro.git ```
+### Run Code
+```bash
+streamlit run main.py
+```
 
-2.Install the required dependencies using pip or conda:
-
-```pip install -r requirements.txt```
-
-3.Then run the app:
-
- ``` streamlit run main.py ```
-
+### Installing modules
+Before installing modules, use `exit` command to exit the shell, then run the following:
+```
+pipenv install <module>
+```
+then use `pipenv shell` to activate the shell back again. This will add the required modules to the Pipfile as well.
