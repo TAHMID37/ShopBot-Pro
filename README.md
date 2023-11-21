@@ -10,8 +10,17 @@ ShopBot Pro is an advanced smart chatbot designed to enhance your online shoppin
         <li><strong>InstructorEmbedding</li>
   </ul>
 
+##### Setting Up Google API Key
 
-### Setup Development Environment
+1. Create a file named `.env` in the root directory of your project
+
+2. Open the `.env` file.
+ Replace 'YOUR_GOOGLE_API_KEY' with your actual Google API Key obtained from the Google Developer Console.
+ GOOGLE_API_KEY='YOUR_GOOGLE_API_KEY'
+
+3. Save the `.env` file.
+
+##### Setup Development Environment
 ```bash
 pip install pipenv
 pipenv install
