@@ -4,12 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-langchain = "==0.0.284"
-python-dotenv = "==1.0.0"
-streamlit = "==1.22.0"
-tiktoken = "==0.4.0"
-faiss-cpu = "==1.7.4"
-protobuf = "~=3.19.0"
+langchain = "*"
+python-dotenv = "*"
+streamlit = "*"
+tiktoken = "*"
+faiss-cpu = "*"
+protobuf = "*"
 google-generativeai = "*"
 instructorembedding = "*"
 torch = "*"
